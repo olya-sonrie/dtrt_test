@@ -1,0 +1,35 @@
+.button-primary {
+	background: $color-primary;
+	color: $color-secondary;
+	padding: 11px 0;
+
+	&.disabled {
+		cursor: default;
+		background: $color-primary + #111;
+
+		&:hover {
+			cursor: default;
+			background: $color-primary + #111;
+			border: 2px solid transparent;
+		}
+	}
+}
+
+.button-secondary {
+	background:  $color-secondary;
+	color: $color-primary;
+	padding: 11px 0;
+	border: none;
+
+	&.disabled {
+		background: $color-secondary + #111;
+		cursor: default;
+
+		&:hover {
+			cursor: default;
+			background: $color-secondary + #111;
+			border: 2px solid transparent;
+		}
+		
+	}
+}
